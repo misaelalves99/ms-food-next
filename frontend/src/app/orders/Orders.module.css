@@ -1,0 +1,88 @@
+.orders {
+  min-height: 80vh;
+  text-align: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.orders h1 {
+  font-size: 2.5rem;
+  color: #F7931E;
+}
+
+/* Crie uma classe para substituir o seletor h1 puro */
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tableCell {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.tableHeader {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tableRowHover:hover {
+  background-color: #f1f1f1;
+}
+
+.listSquare {
+  list-style-type: square;
+  padding: 0;
+  margin: 0;
+}
+
+.listItemSpacing {
+  margin-bottom: 4px;
+}
+
+.selectBox {
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.cancelButton {
+  background-color: black;
+  color: #F7931E;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancelButton:hover {
+  background-color: #F7931E;
+  color: white;
+}

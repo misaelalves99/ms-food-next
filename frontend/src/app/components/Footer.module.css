@@ -1,0 +1,18 @@
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+  
+.footer h1 {
+    font-family: "Raleway", serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}

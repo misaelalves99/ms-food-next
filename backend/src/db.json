@@ -1,0 +1,344 @@
+{
+  "cardapio": {
+    "acompanhamentos": [
+      {
+        "id": 1,
+        "tipo": "Abóbora"
+      },
+      {
+        "id": 2,
+        "tipo": "Arroz"
+      },
+      {
+        "id": 3,
+        "tipo": "Batata frita"
+      },
+      {
+        "id": 4,
+        "tipo": "Estrogonofe"
+      },
+      {
+        "id": 5,
+        "tipo": "Ervilha"
+      },
+      {
+        "id": 6,
+        "tipo": "Farofa"
+      },
+      {
+        "id": 7,
+        "tipo": "Feijão"
+      },
+      {
+        "id": 8,
+        "tipo": "Mandioca"
+      },
+      {
+        "id": 9,
+        "tipo": "Milho-verde"
+      },
+      {
+        "id": 10,
+        "tipo": "Ovo"
+      },
+      {
+        "id": 11,
+        "tipo": "Purê de batata"
+      }
+    ],
+    "carne": [
+      {
+        "id": 1,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 2,
+        "tipo": "Bife à milanesa"
+      },
+      {
+        "id": 3,
+        "tipo": "Contrafilé"
+      },
+      {
+        "id": 4,
+        "tipo": "Costela bovina"
+      },
+      {
+        "id": 5,
+        "tipo": "Costela suína"
+      },
+      {
+        "id": 6,
+        "tipo": "Cupim"
+      },
+      {
+        "id": 7,
+        "tipo": "Filé de frango"
+      },
+      {
+        "id": 8,
+        "tipo": "Filé mignon"
+      },
+      {
+        "id": 9,
+        "tipo": "Filé de porco"
+      },
+      {
+        "id": 10,
+        "tipo": "Fraldinha"
+      },
+      {
+        "id": 11,
+        "tipo": "Frango à milanesa"
+      },
+      {
+        "id": 12,
+        "tipo": "Frango à passarinho"
+      },
+      {
+        "id": 13,
+        "tipo": "Linguiça"
+      },
+      {
+        "id": 14,
+        "tipo": "Lombo suíno"
+      },
+      {
+        "id": 15,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 16,
+        "tipo": "Torresmo"
+      }
+    ],
+    "salada": [
+      {
+        "id": 1,
+        "tipo": "Alface"
+      },
+      {
+        "id": 2,
+        "tipo": "Beterraba"
+      },
+      {
+        "id": 3,
+        "tipo": "Brócolis"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola"
+      },
+      {
+        "id": 5,
+        "tipo": "Cenoura"
+      },
+      {
+        "id": 6,
+        "tipo": "Couve"
+      },
+      {
+        "id": 7,
+        "tipo": "Couve-flor"
+      },
+      {
+        "id": 8,
+        "tipo": "Espinafre"
+      },
+      {
+        "id": 9,
+        "tipo": "Pepino"
+      },
+      {
+        "id": 10,
+        "tipo": "Repolho"
+      },
+      {
+        "id": 11,
+        "tipo": "Salpicão"
+      },
+      {
+        "id": 12,
+        "tipo": "Tomate"
+      }
+    ],
+    "massas": [
+      {
+        "id": 1,
+        "tipo": "Espaguete"
+      },
+      {
+        "id": 2,
+        "tipo": "Lasanha"
+      },
+      {
+        "id": 3,
+        "tipo": "Macarrão"
+      }
+    ],
+    "suco natural": [
+      {
+        "id": 1,
+        "tipo": "Abacaxi"
+      },
+      {
+        "id": 2,
+        "tipo": "Caju"
+      },
+      {
+        "id": 3,
+        "tipo": "Laranja"
+      },
+      {
+        "id": 4,
+        "tipo": "Limão"
+      },
+      {
+        "id": 5,
+        "tipo": "Manga"
+      },
+      {
+        "id": 6,
+        "tipo": "Maracujá"
+      }
+    ],
+    "refrigerante": [
+      {
+        "id": 1,
+        "tipo": "Abacaxi"
+      },
+      {
+        "id": 2,
+        "tipo": "Cola"
+      },
+      {
+        "id": 3,
+        "tipo": "Guaraná"
+      },
+      {
+        "id": 4,
+        "tipo": "Laranja"
+      },
+      {
+        "id": 5,
+        "tipo": "Limão"
+      },
+      {
+        "id": 6,
+        "tipo": "Uva"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "2",
+      "tipo": "Finalizado"
+    },
+    {
+      "id": "3",
+      "tipo": "Solicitado"
+    }
+  ],
+  "comidas": [
+    {
+      "id": "1",
+      "nome": "Misael Alves",
+      "acompanhamentos": "Feijão",
+      "carne": "Filé de frango",
+      "salada": "Beterraba",
+      "massa": "Espaguete",
+      "suco": "Laranja",
+      "refrigerante": "Cola",
+      "status": 2
+    },
+    {
+      "id": "2",
+      "nome": "Amanda Santos",
+      "acompanhamentos": "Arroz",
+      "carne": "Torresmo",
+      "salada": "Repolho",
+      "massa": "Lasanha",
+      "suco": "Abacaxi",
+      "refrigerante": "Guaraná",
+      "status": "Em produção"
+    },
+    {
+      "id": "3",
+      "nome": "Gilberto Pereira",
+      "acompanhamentos": "Feijão",
+      "carne": "Picanha",
+      "salada": "Salpicão",
+      "massa": "Macarrão",
+      "suco": "Maracujá",
+      "refrigerante": "Laranja",
+      "status": "Solicitado"
+    },
+    {
+      "id": "4",
+      "nome": "Sophia Silva",
+      "acompanhamentos": "Arroz",
+      "carne": "Linguiça",
+      "salada": "Tomate",
+      "massa": "Lasanha",
+      "suco": "Caju",
+      "refrigerante": "Guaraná",
+      "status": "Cancelado"
+    },
+    {
+      "id": "1735788436597",
+      "nome": "Sonia",
+      "acompanhamentos": "Batata frita",
+      "carne": "Lombo suíno",
+      "salada": "Repolho",
+      "massa": "Lasanha",
+      "suco": [
+        "Abacaxi",
+        "Laranja",
+        "Manga"
+      ],
+      "refrigerante": [
+        "Abacaxi",
+        "Guaraná"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "1735838693543",
+      "nome": "Beatriz",
+      "acompanhamentos": "Batata frita",
+      "carne": "Linguiça",
+      "salada": "Salpicão",
+      "massa": "Espaguete",
+      "suco": [
+        "Abacaxi",
+        "Laranja",
+        "Caju"
+      ],
+      "refrigerante": [
+        "Abacaxi",
+        "Guaraná"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "nome": "Adrielle Alves dos Santos",
+      "acompanhamentos": "Farofa",
+      "carne": "Frango à passarinho",
+      "salada": "Cenoura",
+      "massa": "Espaguete",
+      "suco": [
+        "Caju"
+      ],
+      "refrigerante": [
+        "Guaraná",
+        "Cola"
+      ],
+      "status": 2,
+      "id": "bp0MkUr"
+    }
+  ]
+}
