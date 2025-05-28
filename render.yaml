@@ -3,7 +3,7 @@ services:
     name: ms-food-backend
     env: node
     rootDir: backend
-    buildCommand: npm install
+    buildCommand: npm install && npm run build
     startCommand: npm run start
     envVars:
       - key: PORT
@@ -11,7 +11,7 @@ services:
       - key: API_PREFIX
         value: /api
       - key: API_URL
-        value: https://ms-food-backend.onrender.com/api # atualize com o link real após deploy
+        value: https://ms-food-backend.onrender.com/api
 
   - type: web
     name: ms-food-frontend
@@ -20,5 +20,5 @@ services:
     buildCommand: npm install && npm run build
     startCommand: npm run start
     envVars:
-      - key: API_URL
-        value: https://ms-food-backend.onrender.com/api # igual ao do backend
+      - key: NEXT_PUBLIC_API_URL
+        value: https://ms-food-backend.onrender.com/api
