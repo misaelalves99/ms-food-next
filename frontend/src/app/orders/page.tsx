@@ -2,13 +2,9 @@
 
 import styles from './Orders.module.css';
 import { useEffect, useContext, useState, ChangeEvent } from 'react';
-import { OrdersContext } from '../context/OrdersContext'; // importa só o contexto
-import type { Order } from '../types/order';               // importa só o tipo
-
-interface Status {
-  id: number;
-  tipo: string;
-}
+import { OrdersContext } from '../context/OrdersContext';
+import { Order } from '../../app/types/order';
+import { Status } from '../../app/types/status';
 
 const Orders = () => {
   const context = useContext(OrdersContext);

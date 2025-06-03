@@ -1,3 +1,5 @@
+// app/page.tsx
+
 'use client';
 
 import styles from './Home.module.css';
@@ -17,7 +19,7 @@ export default function Home() {
     acompanhamentos: '',
     carne: '',
     salada: '',
-    massa: '',          // singular para formulário
+    massa: '',
     suco: [],
     refrigerante: [],
   });
@@ -27,7 +29,7 @@ export default function Home() {
     acompanhamentos: [],
     carne: [],
     salada: [],
-    massas: [],         // plural para opções
+    massas: [],
     suco: [],
     refrigerante: [],
   });
@@ -97,7 +99,6 @@ export default function Home() {
     const newOrder = {
       ...formData,
       status: 'Solicitado',
-      // id: Date.now().toString(), // REMOVIDO para backend criar o id
     };
 
     try {

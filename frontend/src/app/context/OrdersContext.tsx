@@ -1,19 +1,12 @@
+// src/context/OrdersContext.tsx
+
 'use client';
 
-import { createContext, useState, useEffect, ReactNode } from 'react';
-import { Order } from '../types/order'; // ajuste o caminho conforme sua estrutura
-
-interface OrdersContextType {
-  orders: Order[];
-  addOrder: (order: Order) => void;
-  setOrders: React.Dispatch<React.SetStateAction<Order[]>>;
-}
+import { createContext, useState, useEffect } from 'react';
+import { Order } from '../types/order';
+import { OrdersContextType, OrdersProviderProps } from '../../app/types/orders';
 
 export const OrdersContext = createContext<OrdersContextType | undefined>(undefined);
-
-interface OrdersProviderProps {
-  children: ReactNode;
-}
 
 export const OrdersProvider = ({ children }: OrdersProviderProps) => {
   const [orders, setOrders] = useState<Order[]>([]);
